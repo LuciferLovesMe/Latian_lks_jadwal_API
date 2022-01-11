@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="60f309c7a6b04011a556253f7022bfe8" Name="Diagram1" ZoomLevel="86">
+        <EntityTypeShape EntityType="lks_jadwalModel.Class" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="lks_jadwalModel.DetailSchedule" Width="1.5" PointX="7.5" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="lks_jadwalModel.HeaderSchedule" Width="1.5" PointX="5.25" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="lks_jadwalModel.Student" Width="1.5" PointX="3" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="lks_jadwalModel.Subject" Width="1.5" PointX="3" PointY="11.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="lks_jadwalModel.sysdiagram" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="lks_jadwalModel.Teacher" Width="1.5" PointX="3" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="lks_jadwalModel.user" Width="1.5" PointX="0.75" PointY="3.625" IsExpanded="true" />
+        <AssociationConnector Association="lks_jadwalModel.FK__HeaderSch__Class__3F466844" ManuallyRouted="false" />
+        <AssociationConnector Association="lks_jadwalModel.FK__Student__classId__47DBAE45" ManuallyRouted="false" />
+        <AssociationConnector Association="lks_jadwalModel.FK__DetailSch__sched__32E0915F" ManuallyRouted="false" />
+        <AssociationConnector Association="lks_jadwalModel.FK__DetailSch__stude__33D4B598" ManuallyRouted="false" />
+        <AssociationConnector Association="lks_jadwalModel.FK__HeaderSch__Subje__300424B4" ManuallyRouted="false" />
+        <AssociationConnector Association="lks_jadwalModel.FK__HeaderSch__Teach__403A8C7D" ManuallyRouted="false" />
+        <AssociationConnector Association="lks_jadwalModel.FK__Student__userId__2D27B809" ManuallyRouted="false" />
+        <AssociationConnector Association="lks_jadwalModel.FK__Teacher__userId__267ABA7A" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
